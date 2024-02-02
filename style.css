@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #938f8f;
+    border-radius: 5px;
+    background-color: #f6d0d0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #93407d;
+    color: rgb(245, 214, 214);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4f199c;
+}
+
+#inventory {
+    margin-top: 20px;
+}
